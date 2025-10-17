@@ -3,14 +3,17 @@ import streamlit as st
 
 st.title("Position Size Calculator")
 
-# Grade multipliers
-grade_multiplier = {
-    "A+ (80%)": 0.80,
-    "A (50%)": 0.50,
-    "B+ (15%)": 0.15,
-    "B (10%)": 0.10,
-    "C (5%)": 0.05,
-    "D (1%)": 0.01,
+# Percent multipliers
+percent_multiplier = {
+    "100% (A++)": 1,
+    "90% (A++)": 0.90,
+    "80% (A+)": 0.80,
+    "50% (A)": 0.50,
+    "30% (A-)": 0.25,
+    "15% (B+)": 0.15,
+    "10% (B)": 0.10,
+    "5% (C)": 0.05,
+    "1% (D)": 0.01,
 }
 
 # Inputs
@@ -22,16 +25,16 @@ except ValueError:
     daily_stop = 0.00
 
 
-grade = st.selectbox("Grade:", ["-"] + list (grade_multiplier.keys()))
+percent_of_DS = st.selectbox("Percent of DS:", ["-"] + list (percent_multiplier.keys()))
 stop_loss_share = st.number_input("Stop Loss per Share ($):", min_value=0.0, step=0.01, format="%.2f", value=0.00)
 
 
 # Calculation
-if daily_stop > 0 and stop_loss_share > 0 and grade != "-":
-    allotted_risk = daily_stop * grade_multiplier[grade]
+if daily_stop > 0 and stop_loss_share > 0 and percent_of_DS != "-":
+    allotted_risk = daily_stop * percent_multiplier[percent_of_DS]
     position_size = allotted_risk / stop_loss_share
 
     st.subheader(f"Position Size: {int(position_size)} shares")
-    st.write(f"{grade_multiplier[grade]*100:.0f}% of Daily Stop (${allotted_risk:.2f})")
+    st.write(f"{allotted_risk:.2f}")
 else:
     st.info("Enter: Daily stop, grade, and stop loss/share to calculate position size")

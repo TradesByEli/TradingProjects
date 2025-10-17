@@ -16,9 +16,12 @@ root.geometry("250x100")
 root.configure(bg="black")
 
 # Clock Label
-label= tk.Label(root, font=('Digital-7', 48), fg="white", bg="black")
+label= tk.Label(root, font=('Digital-7', 24), fg="white", bg="black")
 label.pack(anchor="center")
 
 #  Start Clock
 time()
 root.mainloop()
+
+# .Exe File
+# pyinstaller --onefile --noconsole --hidden-import=pytz "C:\Program Files\PycharmProjects\Trading Projects\LiveClock.py"
