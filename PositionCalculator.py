@@ -5,15 +5,18 @@ st.title("Position Size Calculator")
 
 # Percent multipliers
 percent_multiplier = {
-    "100% (A++)": 1,
-    "90% (A++)": 0.90,
-    "80% (A+)": 0.80,
-    "50% (A)": 0.50,
-    "30% (A-)": 0.25,
-    "15% (B+)": 0.15,
-    "10% (B)": 0.10,
-    "5% (C)": 0.05,
     "1% (D)": 0.01,
+    "5% (C)": 0.05,
+    "7.5% (C+)": 0.075,
+    "10% (B-)": 0.10,
+    "12.5% (B)": 0.125,
+    "15% (B+)": 0.15,
+    "30% (A-)": 0.30,
+    "50% (A)": 0.50,
+    "80% (A+)": 0.80,
+    "90% (A++)": 0.90,
+    "100% (A+++)": 1,
+
 }
 
 # Inputs
@@ -34,7 +37,6 @@ if daily_stop > 0 and stop_loss_share > 0 and percent_of_DS != "-":
     allotted_risk = daily_stop * percent_multiplier[percent_of_DS]
     position_size = allotted_risk / stop_loss_share
 
-    st.subheader(f"Position Size: {int(position_size)} shares")
-    st.write(f"{allotted_risk:.2f}")
+    st.subheader(f"Position Size: {int(position_size)} shares " + (f"(${allotted_risk:.2f} risk)"))
 else:
-    st.info("Enter: Daily stop, grade, and stop loss/share to calculate position size")
+    st.info("Enter: Daily stop, Percent, and Stop loss/share to calculate position size")
