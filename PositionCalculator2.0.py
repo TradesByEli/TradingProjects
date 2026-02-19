@@ -29,7 +29,7 @@ with input_cols[0]:
     daily_stop = st.number_input(
         "Daily Stop ($)",
         min_value=0.0,
-        value=500.0,
+        value=100.0,
         step=10.0,
         format="%.2f",
         help="Max amount you allow yourself to lose today.",
