@@ -65,7 +65,7 @@ if daily_stop > 0 and stop_loss_per_share > 0:
         shares = int(risk_budget / stop_loss_per_share)
         actual_risk = shares * stop_loss_per_share
 
-         equity = f"{shares * entry_price:,.2f}" if entry_price > 0 else "-"
+        equity = f"{shares * entry_price:,.2f}" if entry_price > 0 else "-"
         row = {
             "Presets": label,
             "Actual Risk ($)": f"{actual_risk:,.2f}",
