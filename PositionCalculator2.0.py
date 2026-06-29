@@ -3,14 +3,13 @@ import streamlit as st
 st.set_page_config(page_title="Position Size Calculator", layout="wide")
 
 RISK_PRESETS = {
-    "1%": 0.01,
     "2%": 0.02,
-    "5% (B-)": 0.05,
+    "5% (B)": 0.05,
     "7.5%": 0.075,
-    "10% (B)": 0.10,
+    "10%": 0.10,
     "12.5%": 0.125,
-    "15%": 0.15,
-    "20% (B+)": 0.20,
+    "15% (B+)": 0.15,
+    "20%": 0.20,
     "25%": 0.25,
     "30% (A-)": 0.30,
     "40%": 0.40,
@@ -29,7 +28,7 @@ with input_cols[0]:
     daily_stop = st.number_input(
         "Daily Stop ($)",
         min_value=0.0,
-        value=100.0,
+        value=150.0,
         step=10.0,
         format="%.2f",
         help="Max amount you allow yourself to lose today.",
@@ -66,15 +65,13 @@ if daily_stop > 0 and stop_loss_per_share > 0:
         shares = int(risk_budget / stop_loss_per_share)
         actual_risk = shares * stop_loss_per_share
 
+         equity = f"{shares * entry_price:,.2f}" if entry_price > 0 else "-"
         row = {
-            "Preset": label,
-            "Risk Budget ($)": f"{risk_budget:,.2f}",
-            "Shares": f"{shares:,}",
+            "Presets": label,
             "Actual Risk ($)": f"{actual_risk:,.2f}",
+            "Shares": f"{shares:,}",
+            "Equity ($)": equity,
         }
-
-        if entry_price > 0:
-            row["Position Value ($)"] = f"{shares * entry_price:,.2f}"
 
         ladder_rows.append(row)
 
