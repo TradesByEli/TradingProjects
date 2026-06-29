@@ -68,8 +68,8 @@ if daily_stop > 0 and stop_loss_per_share > 0:
         equity = f"{shares * entry_price:,.2f}" if entry_price > 0 else "-"
         row = {
             "Presets": label,
+             "Shares": f"{shares:,}",
             "Actual Risk ($)": f"{actual_risk:,.2f}",
-            "Shares": f"{shares:,}",
             "Equity ($)": equity,
         }
 
