@@ -1,0 +1,56 @@
+ticker,label,date,opp_grade,catalyst,trade_types,dilution_cash_need,float,day_vol,avg_vol_30d
+LHAI,,2026-07-01,B,,,,,,
+ILLR,,2026-06-25,,,,,,,
+INHD,,2026-06-08,B,AI News; Fluff News,HOD Breakout; Afternoon Breakout,High,2M,279M,
+STI,,2026-06-04,B+,Space/Aviation News; Hot Theme,PM Breakout,Low,1M,100M,2M
+STAK,,2026-06-03,C+,Energy News; Revenue News; Day 2 Continuation,HOD Breakout,Low,8M,27M,2.9M
+LASE,,2026-06-02,A,Drone News; Government Contracts; Hot Theme,PMH Breakout; AH Breakout,Low,,,
+ASTC,,2026-05-27,A+,Space/Aviation News; Hot Theme,VWAP Reclaim; PMH Breakout; HOD Breakout; Daily Level Breakout,Medium,1.4M,147M,5.5M
+TDIC,$TDIC: China name; Fluff AI PR,2026-05-13,A,AI News; Fluff News; Day 2 Continuation,,High,3M,109M,6.5M
+QUCY,,2026-05-13,A,Drone News; Government Contracts,,High,11M,535M,12M
+BIRD,,2026-04-15,A+,AI News; Hot Theme,PM Breakout; PMH Breakout; Held Support Buy; HOD Breakout,Medium,6M,282M,115K
+RMSG,,2026-04-13,,,,,,,
+AIXI,,2026-04-06,A,Day 2 Continuation,VWAP Reclaim; Opening Range Break; Afternoon Breakout; Micro Pullback Scalp; HOD Breakout,Medium,16M,D1- 1B D2- 663M,13.5M
+UGRO,,2026-03-23,A+,M&A News; Fluff News,VWAP Reclaim; Afternoon Breakout; HOD Breakout,Low,671.5K,78.4M,5.5M
+MOBX,,2026-03-03,A+,Space/Aviation News; Drone News,VWAP Reclaim; Opening Range Break; HOD Breakout,High,86M,1.4B,18.76M
+XWEL,,2026-02-25,C,Fresh News; Change in Fundamentals,BtO; Micro Pullback Scalp,Low,4.30M,353M,4.3M
+RXT,$RXT: Palantir Partnership Announced,2026-02-18,A,AI News; Partnership,Opening Range Break; PMH Breakout; HOD Breakout,Low,97.63M,542.5M,12.51M
+OLB,,2026-02-17,A,Fresh News; Partnership,PMH Breakout; Afternoon Breakout,Low,8.15M,476.37M,9.75M
+RIME,,2026-02-13,A+,AI News,Afternoon Breakout; AH Breakout,High,2.14M,167.41M,5.38M
+TIRX,$TIRX: Equity Investment at $1.5/share price,2026-01-28,B,Fresh News; Equity Investment,Opening Range Break; Held Support Buy; HOD Breakout; Afternoon Breakout,Medium,—,395M,8M
+VERO,,2026-01-16,A,N/A,PM Breakout; Held Support Buy; HOD Breakout; Micro Pullback Scalp,High,1.63M,309M,8.4M
+JAGX,,2026-01-16,B,Biotech News; Partnership,Opening Range Break; PMH Breakout; Micro Pullback Scalp,Medium,2M,160.4M,4.1M
+CJMB,,2026-01-15,C,Biotech News; Revenue News,HOD Breakout; PMH Breakout; Held Support Buy,Medium,1.62M,196M,4M
+SPHL,,2026-01-15,B+,Energy News; Partnership,Opening Range Break; Held Support Buy; PMH Breakout,Low,627K,113.1M,2.37M
+ROLR,$ROLR: Announce Partnership with Crypto.com,2026-01-14,A+,Partnership; Hot Theme,Opening Range Break; HOD Breakout,Low; Medium,3.35M,82.23M,93K
+XAIR,,2026-01-13,C+,M&A News; Biotech News,Opening Range Break; PMH Breakout,High,7.54M,408M,5.75M
+EVTV,$EVTV: AI company merger with $3/share target,2026-01-12,A+,Hot Theme; AI News; M&A News,PM Breakout; Opening Range Break; Afternoon Breakout; AH Breakout,High,4.5M,761M,20M
+FLYX,,2026-01-08,B,Hot Theme; Space/Aviation News,Held Support Buy; Opening Range Break,Medium,6M,115.5M,21K
+SIDU,,2025-12-22,A,Hot Theme; Space/Aviation News,PM Breakout; Opening Range Break,Low,35M,357M,9M
+PETS,,2025-12-11,C,M&A News,Afternoon Breakout; HOD Breakout,Low,15M,131M,150K
+CYPH,$CYPH/LPTX: Announced ZCash Treasury Strategy,2025-11-12,B+,DAT News; M&A News,PMH Breakout; HOD Breakout; LU; Micro Pullback Scalp,High,41M,786M,1M
+LFS,,2025-11-11,B,No Catalyst,HOD Breakout; Afternoon Breakout; AH Breakout; Held Support Buy,Low,6M,37M,111K
+BKYI,,2025-11-07,C,Fresh News,BtO; Held Support Buy,Low,6M,478M,13.4M
+INTS,,2025-10-30,B+,Biotech News,PMH Breakout; Held Support Buy; HOD Breakout; Micro Pullback Scalp,Low,43M,1.4B,6M
+CMBM,,2025-10-29,B+,Fresh News,HOD Breakout; LU; Held Support Buy; Micro Pullback Scalp,Low,,,
+GNPX,,2025-10-15,B,Biotech News,PMH Breakout; HOD Breakout,N/A,-,1M,267K
+ELBM,,2025-10-13,B,Hot Theme; Energy News,Afternoon Breakout,Low,18M,197M,1.6M
+STI,,2025-10-13,A,AI News; Energy News; Hot Theme,Opening Range Break; LU; Held Support Buy,Low,1M,100M,2M
+GWH,,2025-10-13,B,Energy News; Hot Theme; Day 2 Continuation,Held Support Buy; HOD Breakout; Micro Pullback Scalp,Medium,8.8M,208M,6M
+AMGH,,2025-09-19,B,M&A News,Opening Range Break; PMH Breakout; HOD Breakout,Low,1.8M,208M,1.3M
+ORBS,$ORBS/$OCTO: Worldcoin Treasury Announcement,2025-09-08,A+,DAT News; Hot Theme,PM Breakout; Opening Range Break; LU; HOD Breakout; Micro Pullback Scalp,Low,,,
+OCTO,,2025-09-08,,,,,3M,235M,6.4M
+CNTN,$CNTN/$THAR,2025-08-20,A,Biotech News,Afternoon Breakout; AH Breakout; RSW,N/A,,,
+THAR,,2025-08-20,,,,,2M,355M,6M
+BSLK,,2025-08-13,A,N/A,Afternoon Breakout,Low,1.4M,261M,4M
+RBNE,$RBNE: Israel Strikes Iran,2025-06-13,A+,Breaking News; Geopolitical Tensions,PM Breakout; Opening Range Break; Held Support Buy,High,1M,101M,—
+KLTO,,2025-06-09,A+,Biotech News,HOD Breakout; Held Support Buy; Micro Pullback Scalp; RSW,High,27M,1B,11M
+ZENA,$ZENA: Announced drone service for US Gov.,2025-06-05,B,Drone News; Government Contracts,Opening Range Break; Held Support Buy,N/A,8M,137M,4.56M
+ASST,,2025-05-07,,,RSW,,—,62M,360K
+GPUS,,2025-05-05,B,Earnings; Revenue News; Hot Theme,VWAP Reclaim; Held Support Buy; HOD Breakout,Medium,1.5M,298M,6M
+CEP,,2025-04-23,A+,M&A News; DAT News; Crypto News; Day 2 Continuation; Hot Theme,VWAP Continuation; RSW; PMH Breakout; Micro Pullback Scalp,Low,,,
+BULL,,2025-04-14,,,,,,,
+AIFF,,2025-02-11,A,Partnership; AI News; Biotech News,Opening Range Break; PMH Breakout; HOD Breakout; Held Support Buy,N/A,3.6M,195.4M,6.87M
+SIDU,,2024-12-16,A+,,,,35M,357M,9M
+ZENA,,2024-11-25,,,,,8M,137M,4.56M
+VVOS,,2023-03-29,A+,,Afternoon Breakout,,,,
