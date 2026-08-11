@@ -1,0 +1,22 @@
+id,slide,author,date,symbol,direction,setup_label,tod_et,level_price_cited,level_detail_cited,year_confidence,notes_cited
+E01,2,Elijah,2026-07-07,SNDK,long,Daily OE Long + Extension into Key Support,10:30,1500,1-month support; undercut 50-SMA,stated,4 consecutive red days; -35% & 4 ATRs in 5 days; upper to lower BB in 8 days
+E02,3,Elijah,2026-06-29,SOXL,long,Volatility in Range,10:15,,50-SMA,stated,-30% in 3 days
+E03,4,Elijah,2026-06-25,SOXL,long,Volatility in Range,10:00,226,1-week support,stated,1 ATR extension from open; 226 from broad market selloff day; held above on 3 tries
+E04,5,Elijah,2026-06-25,IBIT,long,Extension into Key Support,10:00,,unspecified,stated,1 ATR extension from open
+E05,6,Elijah,2026-04-07,AAPL,long,Volatility in Range,11:00,246,1-month support,stated,>1.5 ATR extension from open; sold off on foldable iPhone delay reports
+E06,7,Elijah,2025-11-21,BE,long,Extension into 100-SMA,10:45,,100-SMA,stated,-49% off highs in 10 days; volume capitulation 2x prior day
+E07,8,Elijah,2025-11-21,PLTR,long,Extension into Key Support,11:00,148,3-month support,stated,-29% off ATHs in 3 weeks; 16% & 3 ATRs in 2 days
+E08,9,Elijah,2025-11-07,NVDA,long,Daily OE Long + Extension into 50-SMA,11:10,180,50-SMA + key level,stated,5 consecutive down days; -15% & 4 ATRs in 5 days; undercut 50-SMA; 1 ATR ext from open
+E09,10,Elijah,2025-08-20,PLTR,long,Daily OE Long + Extension into 50-SMA,11:00,,50-SMA,stated,5 ATRs in 5 consecutive down days; upper to lower BB in 7 days; volume doubles twice; range expansion; undercuts 50-SMA
+E10,11,Elijah,2025-07-18,CRCL,short,Extension into Key Resistance,10:10,263,key resistance,corrected,">1 ATR extension from LOD; slide says 07/20/25 (a Sunday) - actual event 2025-07-18, high 262.97 matches cited 263"
+T01,13,Thomas,2026-06-04,SNDK,short,Volatility in Range,09:40,1805,prior daily high,inferred,
+T02,14,Thomas,2026-06-24,MSFT,short,Trend Continuation,09:38,377.17,prior daily high; also HTF level,inferred,
+T03,15,Thomas,2026-06-26,MU,long,Earnings Day 1,10:00,,06/18 daily high (cited "11:45" - ambiguous price vs time),inferred,VERIFY level from slide image
+T04a,16,Thomas,2026-05-26,INTC,long,Gap into Resistance,09:34,118.32,5-SMA and HTF support,inferred,first of two trades on the slide
+T04b,16,Thomas,2026-05-26,INTC,short,Gap into Resistance,09:58,125,prior daily resistance,inferred,second of two trades on the slide
+T05,17,Thomas,2026-06-03,SOXL,long,Gap into All Time High,09:45,262,5-SMA 262 down to 260 prior-day levels,inferred,
+T06,18,Thomas,2026-07-13,SNDK,long,Trend Continuation,09:45,1700,high from 3 days prior; tested multiple times on daily,inferred,slide 23 duplicates this example
+T07,19,Thomas,2026-05-22,HOOD,long,Volatility in Range,10:25,73.50,key level tested multiple times on daily,inferred,
+T08,20,Thomas,2026-06-01,FIG,long,Range Breakout,09:34,25.40,prior day level,inferred,
+T09,21,Thomas,2026-07-14,SPCX,short,Trend Continuation,09:42,143,prior day PML,inferred,
+T10,22,Thomas,2026-08-03,SNDK,long,Day 3,09:32,1124.38,prior highs on the daily,corrected,"slide text says 1225 but chart shows level line at 1124.38/1115.68 and day low 1121.27 - 1225 is a digit typo for ~1125; event date is today"
